@@ -1,0 +1,12 @@
+spring cloud
+projekt mikroservisowy 2 serwisy (1 łaczenie z bazą z dwoama bazami danych, kazdy pobiera do swojej bazy komunikacja miedzu serwerami i zapis)
+eureka 
+config servis, 
+pozostałe mikroserwisy
+feign (interfejsy restowe) komunikacja z tym mikroserwerem + hibernate
+Resiliance4j
+Spring getway
+
+2 spring booty łaczenie do eureki pobieranie prpory z confiha implentacja interfejsów z  jeden łaczy sie drugim wysyła coś i zapisuje pierwszy serwis
+
+1 mikroserwis -connect-> 2 mikroseris --> 1 pobiera z bazy -send-> mikroserwis 2 -zapis -> mikroseris 1 
